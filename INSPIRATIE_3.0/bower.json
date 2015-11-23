@@ -1,0 +1,21 @@
+{
+	"name": "Inspiratie",
+	"version": "0.0.0",
+	"authors": [
+		"John-Alexander Kolmus <john-alexander.kolmus@student.howest.be>"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"js/vendor",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"fallback": "~1.1.6",
+		"jquery": "~2.1.1",
+		"modernizr": "~2.8.3"
+	}
+}

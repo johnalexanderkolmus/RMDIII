@@ -1,0 +1,36 @@
+body {
+  font-size: 1em;
+  line-height: $line-height-base;
+  background-color: #E52637;
+  position: relative;
+}
+
+.dummy{
+
+ 	clear: both;
+ 	float: none;
+
+}
+
+.hide{
+
+	display: none;
+
+}
+
+.error_form{
+
+	background-color: #E52637;
+	border-radius: 6px;
+
+}
+
+@font-face {
+    font-family: lobster;
+    src: url(../font/Lobster.otf);
+}
+
+@font-face {
+	font-family: black_letters;
+	src: url(../font/Black_Letters.ttf);
+}
