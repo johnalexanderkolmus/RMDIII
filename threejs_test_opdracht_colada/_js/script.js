@@ -6,6 +6,7 @@
     var controls, guiControls, datGUI;
     var stats;
     var dae, spotLight;
+    var SPEED = 0.01;
 
     var loader = new THREE.ColladaLoader();
     loader.options.convertUpAxis = true;
@@ -29,6 +30,8 @@
         animate();
         console.log(scene);
     });
+
+
     function init(){
         /*creates empty scene object and renderer*/
         scene = new THREE.Scene();
@@ -141,10 +144,14 @@
     }
 
 
+
+
     function render() {
         dae.traverse(function (child){
             if (child.colladaId === "Icosphere"){
-                child.rotation.y += .01;
+                child.rotation.x += SPEED * 2;
+                child.rotation.y += SPEED;
+                child.rotation.z += SPEED * 3;
             }
         });
 
