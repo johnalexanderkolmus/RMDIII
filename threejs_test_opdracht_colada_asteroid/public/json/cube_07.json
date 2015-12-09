@@ -1,0 +1,141 @@
+{
+    "materials": [{
+        "type": "MeshPhongMaterial",
+        "color": 2432675,
+        "vertexColors": false,
+        "blending": "NormalBlending",
+        "name": "Material",
+        "depthTest": true,
+        "uuid": "FC9C3C1C-87E7-3748-8148-105003E5F3D5",
+        "side": 2,
+        "ambient": 2432675,
+        "depthWrite": true,
+        "emissive": 0,
+        "shininess": 16,
+        "specular": 4882194
+    },{
+        "type": "MeshPhongMaterial",
+        "color": 41731,
+        "vertexColors": false,
+        "blending": "NormalBlending",
+        "name": "Material.001",
+        "depthTest": true,
+        "uuid": "109C8DEC-623D-3F38-8AFD-395BEC6741C8",
+        "ambient": 41731,
+        "depthWrite": true,
+        "emissive": 0,
+        "shininess": 16,
+        "specular": 4199295
+    }],
+    "metadata": {
+        "generator": "io_three",
+        "type": "Object",
+        "version": 4.4
+    },
+    "object": {
+        "children": [{
+            "name": "Camera",
+            "uuid": "DE0714B3-5D16-30EF-9A0A-6C5D6DD394B9",
+            "matrix": [-0.685881,-0.010817,0.727634,0,0.31737,0.895343,0.312469,0,-0.654862,0.445245,-0.610666,0,-7.48113,5.34366,-6.50764,1],
+            "visible": true,
+            "type": "PerspectiveCamera",
+            "far": 100,
+            "near": 0.1,
+            "aspect": 1.77778,
+            "fov": 35
+        },{
+            "name": "Cube",
+            "uuid": "F29D1AC4-D789-3D8E-BAB5-59DC1B758FE2",
+            "matrix": [-3.76799,0,0,0,0,0,3.76799,0,0,3.76799,0,0,0,0,0,1],
+            "visible": true,
+            "type": "Mesh",
+            "material": "FC9C3C1C-87E7-3748-8148-105003E5F3D5",
+            "castShadow": true,
+            "receiveShadow": true,
+            "geometry": "65D46590-7E71-3068-9851-61F71FB00780"
+        },{
+            "name": "Lamp",
+            "uuid": "480358C5-FC08-314B-A146-DEE8993A0407",
+            "matrix": [0.290865,-0.055189,0.955171,0,0.771101,0.604525,-0.199883,0,-0.566393,0.794672,0.218391,0,-4.07625,5.90386,1.00545,1],
+            "visible": true,
+            "type": "PointLight",
+            "color": 16777215,
+            "intensity": 1,
+            "distance": 0
+        }],
+        "type": "Scene",
+        "matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+        "uuid": "F574BF4D-BB51-4E89-87E6-804E72B629EE"
+    },
+    "animations": [{
+        "name": "default",
+        "fps": 24,
+        "tracks": []
+    }],
+    "textures": [],
+    "images": [],
+    "geometries": [{
+        "materials": [{
+            "colorAmbient": [0.145164,0.120991,0.64],
+            "depthWrite": true,
+            "blending": "NormalBlending",
+            "DbgName": "Material",
+            "depthTest": true,
+            "colorEmissive": [0,0,0],
+            "specularCoef": 16,
+            "colorSpecular": [0.291176,0.5,0.074074],
+            "shading": "phong",
+            "wireframe": false,
+            "vertexColors": false,
+            "colorDiffuse": [0.145164,0.120991,0.64],
+            "opacity": 1,
+            "DbgIndex": 0,
+            "visible": true,
+            "transparent": false,
+            "DbgColor": 15658734
+        },{
+            "colorAmbient": [0.002094,0.64,0.012119],
+            "depthWrite": true,
+            "blending": "NormalBlending",
+            "DbgName": "Material.001",
+            "depthTest": true,
+            "colorEmissive": [0,0,0],
+            "specularCoef": 16,
+            "colorSpecular": [0.252391,0.07593,0.5],
+            "shading": "phong",
+            "wireframe": false,
+            "vertexColors": false,
+            "colorDiffuse": [0.002094,0.64,0.012119],
+            "opacity": 1,
+            "DbgIndex": 1,
+            "visible": true,
+            "transparent": false,
+            "DbgColor": 15597568
+        }],
+        "type": "Geometry",
+        "data": {
+            "skinWeights": [],
+            "bones": [],
+            "metadata": {
+                "materials": 2,
+                "bones": 0,
+                "version": 3,
+                "colors": 0,
+                "uvs": 0,
+                "generator": "io_three",
+                "faces": 6,
+                "vertices": 8,
+                "normals": 8
+            },
+            "skinIndices": [],
+            "influencesPerVertex": 2,
+            "colors": [],
+            "uvs": [],
+            "name": "CubeGeometry.6",
+            "faces": [35,0,1,2,3,0,0,1,2,3,35,4,7,6,5,0,4,5,6,7,35,0,4,5,1,0,0,4,7,1,35,1,5,6,2,0,1,7,6,2,35,2,6,7,3,0,2,6,5,3,35,4,0,3,7,1,4,0,3,5],
+            "vertices": [1.89673,1.89673,-1.89673,1.89673,-1.89673,-1.89673,-1.89673,-1.89673,-1.89673,-1.89673,1.89673,-1.89673,1.89673,1.89673,1.89673,1.89673,-1.89673,1.89673,-1.89673,-1.89673,1.89673,-1.89673,1.89673,1.89673],
+            "normals": [0.577349,0.577349,-0.577349,0.577349,-0.577349,-0.577349,-0.577349,-0.577349,-0.577349,-0.577349,0.577349,-0.577349,0.577349,0.577349,0.577349,-0.577349,0.577349,0.577349,-0.577349,-0.577349,0.577349,0.577349,-0.577349,0.577349]
+        },
+        "uuid": "65D46590-7E71-3068-9851-61F71FB00780"
+    }]
+}
